@@ -1,0 +1,16 @@
+Components Summary ---
+-------------------------
+. Components describe a part of the user interface 
+.They are re-usable and can br nested inside other component.
+
+two types-
+1. Stateless Functional Component
+2. Stateful Class Component
+
+
+setState----
+
+1. always make use of setState and never modify  state directly.
+2. code has to be executed after the state has been updated? Place fuction which is the second argument to the setState method.
+3. When you have to update state based on the previous state value , pass in a function  as an argument instead of the regular object.
+
