@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 
-class Message extends Component {
+class Like extends Component {
     constructor() {
         super();
         this.state = {
-            message: "Welcome Visitor",
+            message: "new post here",
         };
     }
 
     changeMessage() {
         this.setState({
-            message: 'Thankyou for subscribe'
+            message: 'My like is increased',
         })
     }
 
@@ -18,10 +18,10 @@ class Message extends Component {
         return (
             <div>
                 <h1>{this.state.message}</h1>
-                <button onClick={() => this.changeMessage()}>Subscribe</button>
+                <button onClick={() => this.changeMessage()}>Like</button>
             </div>
         );
     }
 }
 
-export default Message;
+export default Like;
