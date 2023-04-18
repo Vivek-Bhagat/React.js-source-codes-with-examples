@@ -10,8 +10,9 @@ import "./App.css";
 // import Message from "./components/Message";
 // import Counter from "./components/Counter";
 // import Like from "./components/Like";
-import FunctionClick from "./components/FunctionClick";
-import ClassClick from "./components/ClassClick";
+// import FunctionClick from "./components/FunctionClick";
+// import ClassClick from "./components/ClassClick";
+import EventHandler from "./components/EventHandler";
 class App extends Component {
   render() {
     return (
@@ -37,8 +38,9 @@ class App extends Component {
         {/* <Counter /> */}
         {/* <Like /> */}
 
-        <FunctionClick />
-        <ClassClick />
+        {/* <FunctionClick /> */}
+        {/* <ClassClick /> */}
+        <EventHandler />
       </div>
     );
   }

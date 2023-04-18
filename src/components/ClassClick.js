@@ -2,10 +2,16 @@ import React from "react";
 import { Component } from "react";
 
 class classClick extends Component {
+
+     clickHandler(){
+        console.log("clicked")
+    }
+
+    
     render(){
         return (
             <div>
-                <button>clicked</button>
+                <button onClick={this.clickHandler}>clicked</button>
             </div>
         )
     }
