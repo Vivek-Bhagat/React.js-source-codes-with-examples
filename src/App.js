@@ -7,9 +7,11 @@ import "./App.css";
 // import Goodbye from './components/Goodbye';
 // import Hello from './components/Hello';
 
-import Message from "./components/Message";
+// import Message from "./components/Message";
 // import Counter from "./components/Counter";
-import Like from "./components/Like";
+// import Like from "./components/Like";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 class App extends Component {
   render() {
     return (
@@ -29,10 +31,14 @@ class App extends Component {
           <button>Action</button></Greet>
         < Greet name="Thor" heroName="God Of Thunder" /> */}
 
-        <Message />
+        {/* <Message /> */}
+        
 
         {/* <Counter /> */}
-        <Like />
+        {/* <Like /> */}
+
+        <FunctionClick />
+        <ClassClick />
       </div>
     );
   }
