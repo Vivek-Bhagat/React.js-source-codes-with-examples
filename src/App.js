@@ -14,7 +14,8 @@ import "./App.css";
 // import ClassClick from "./components/ClassClick";
 //import EventHandler from "./components/EventHandler";
 // import ParentComponent from "./components/parentComponent";
-import UserGreeting from "./components/UserGreeting";
+// import UserGreeting from "./components/UserGreeting";
+import ListNames from "./components/ListNames";
 class App extends Component {
   render() {
     return (
@@ -44,7 +45,8 @@ class App extends Component {
         {/* <ClassClick /> */}
         {/* <EventHandler /> */}
         {/* < ParentComponent /> */}
-        < UserGreeting />
+        {/* < UserGreeting /> */}
+        < ListNames />
       </div>
     );
   }
