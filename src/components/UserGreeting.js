@@ -31,6 +31,8 @@ export class UserGreeting extends Component {
             message = <div>Welcome Guest</div>
         }
          return <div>{message}</div>
+        
+        // *normal method
         // return (
         //     <div>
         //         <div>Welcome User</div>
