@@ -7,10 +7,16 @@ export class UserGreeting extends Component {
 
         this.state = {
             // by changing the value from true to false the return message also changes
-            isLoggedIn: false
+            isLoggedIn: true
         }
     }
     render() {
+        // * by using ternary operator 
+        return this.state.isLoggedIn ? (
+            <div>Welcome User</div>
+        ) : (
+            <div>Welcome Guest</div>
+        )
         // *by using if and else statement and returning the valus as parameters ----
         // if (this.state.isLoggedIn) {
         //     return (
@@ -23,15 +29,15 @@ export class UserGreeting extends Component {
         //     )
         // }
         // *by using "let" keyword ----
-        let message
-        if(this.state.isLoggedIn){
-            message = <div>Welcome User</div>
-        }
-        else{
-            message = <div>Welcome Guest</div>
-        }
-         return <div>{message}</div>
-        
+        // let message
+        // if(this.state.isLoggedIn){
+        //     message = <div>Welcome User</div>
+        // }
+        // else{
+        //     message = <div>Welcome Guest</div>
+        // }
+        //  return <div>{message}</div>
+
         // *normal method
         // return (
         //     <div>
