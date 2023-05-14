@@ -12,7 +12,8 @@ import "./App.css";
 // import Like from "./components/Like";
 // import FunctionClick from "./components/FunctionClick";
 // import ClassClick from "./components/ClassClick";
-import EventHandler from "./components/EventHandler";
+//import EventHandler from "./components/EventHandler";
+import ParentComponent from "./components/parentComponent";
 class App extends Component {
   render() {
     return (
@@ -33,14 +34,15 @@ class App extends Component {
         < Greet name="Thor" heroName="God Of Thunder" /> */}
 
         {/* <Message /> */}
-        
+
 
         {/* <Counter /> */}
         {/* <Like /> */}
 
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
-        <EventHandler />
+        {/* <EventHandler /> */}
+        < ParentComponent />
       </div>
     );
   }
