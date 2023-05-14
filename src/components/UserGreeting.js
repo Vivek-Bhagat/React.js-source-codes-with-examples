@@ -11,6 +11,11 @@ export class UserGreeting extends Component {
         }
     }
     render() {
+
+        // * by using short circuit operator
+        // in this it only shows the single tab anothe one is    empty  becuase of '&&' operator
+        //  return
+        //  this.state.isLoggedIn && <div> Welcome User </div>
         // * by using ternary operator 
         return this.state.isLoggedIn ? (
             <div>Welcome User</div>
