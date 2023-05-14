@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
+import Stylesheet from "./components/Stylesheet";
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Goodbye from './components/Goodbye';
@@ -15,7 +16,7 @@ import "./App.css";
 //import EventHandler from "./components/EventHandler";
 // import ParentComponent from "./components/parentComponent";
 // import UserGreeting from "./components/UserGreeting";
-import ListNames from "./components/ListNames";
+// import ListNames from "./components/ListNames";
 class App extends Component {
   render() {
     return (
@@ -46,7 +47,8 @@ class App extends Component {
         {/* <EventHandler /> */}
         {/* < ParentComponent /> */}
         {/* < UserGreeting /> */}
-        < ListNames />
+        {/* < ListNames /> */}
+        < Stylesheet primary={true} />
       </div>
     );
   }
