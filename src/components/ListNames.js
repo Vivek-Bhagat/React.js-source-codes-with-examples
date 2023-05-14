@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Person from './Person'
 // function ListNames() {
 // const name = ['Bruce', 'Diana', 'Clark']
 // /return (
@@ -58,10 +58,12 @@ function ListNames() {
             skill: 'C++'
         },
     ]
-    const personName = person.map(person => <h2> I'm {person.name}, and I'm {person.age} years old. My skill is {person.skill}.</h2>)
+    const personName = person.map(person => <Person key={person.id} person={person}/>)
     return (
         <div>{personName}</div>
     )
 }
 
 export default ListNames
+
+// we must assign key to the props for rendering it. key should be unique , " either it would be name, id, etc etc"
