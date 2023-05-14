@@ -67,3 +67,8 @@ function ListNames() {
 export default ListNames
 
 // we must assign key to the props for rendering it. key should be unique , " either it would be name, id, etc etc"
+
+// * Key  is a special string attributes you need to include when creating list of elements.
+// * Key gives the elements aa stable identity. 
+// * Keys helps React identify which items has changed or removed or added
+// * It  helps in the effecient update of user interface
