@@ -13,7 +13,8 @@ import "./App.css";
 // import FunctionClick from "./components/FunctionClick";
 // import ClassClick from "./components/ClassClick";
 //import EventHandler from "./components/EventHandler";
-import ParentComponent from "./components/parentComponent";
+// import ParentComponent from "./components/parentComponent";
+import UserGreeting from "./components/UserGreeting";
 class App extends Component {
   render() {
     return (
@@ -42,7 +43,8 @@ class App extends Component {
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
         {/* <EventHandler /> */}
-        < ParentComponent />
+        {/* < ParentComponent /> */}
+        < UserGreeting />
       </div>
     );
   }
