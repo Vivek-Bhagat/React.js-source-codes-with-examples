@@ -2,8 +2,9 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
-import Stylesheet from "./components/Stylesheet";
-import Inline from "./components/Inline";
+import TestForm from "./components/TestForm";
+// import Stylesheet from "./components/Stylesheet";
+// import Inline from "./components/Inline";
 // import Greet from './components/Greet';
 // import Welcome from './components/Welcome';
 // import Goodbye from './components/Goodbye';
@@ -50,7 +51,8 @@ class App extends Component {
         {/* < UserGreeting /> */}
         {/* < ListNames /> */}
         {/* < Stylesheet primary={true} /> */}
-        < Inline />
+        {/* < Inline /> */}
+        < TestForm />
       </div>
     );
   }
