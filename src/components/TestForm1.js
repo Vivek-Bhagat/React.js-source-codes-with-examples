@@ -7,6 +7,7 @@ class TestForm1 extends Component {
     this.state = {
       username: "",
       comments: "",
+      topic: "Angular",
     };
   }
 
@@ -16,14 +17,25 @@ class TestForm1 extends Component {
     });
   };
 
-  commentsHandler = (event) => {
+  commentsHandler = event => {
     this.setState({
-        comments: event.target.value
+      comments: event.target.value,
+    });
+  };
+
+  topicHandler = event =>{
+    this.setState({
+        topic: event.target.value
     })
+  }
+
+  handleSubmit = event =>{
+    alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`)
+    event.preventDefault() //here it saves the previous date to being default
   }
   render() {
     return (
-      <form>
+      <form onSubmit={this.handleSubmit}>
         <div>
           <label>Username</label>
           <input
@@ -37,8 +49,17 @@ class TestForm1 extends Component {
           <textarea
             value={this.state.comments}
             onChange={this.commentsHandler}
-          ></textarea>
+          />
         </div>
+        <div>
+          <label>Topic</label>
+          <select value={this.state.topic} onChange={this.topicHandler}>
+            <option value="React" >React</option>
+            <option value="Angular" >Angular</option>
+            <option value="JavaScript" >JavaScript</option>
+          </select>
+        </div>
+        <button type='submit'>Submit</button>
       </form>
     );
   }
