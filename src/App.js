@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
-import TestForm from "./components/TestForm";
+// import TestForm from "./components/TestForm";
+import LifeCycle from "./components/LifeCycle";
 // import Stylesheet from "./components/Stylesheet";
 // import Inline from "./components/Inline";
 // import Greet from './components/Greet';
@@ -52,7 +53,8 @@ class App extends Component {
         {/* < ListNames /> */}
         {/* < Stylesheet primary={true} /> */}
         {/* < Inline /> */}
-        < TestForm />
+        {/* < TestForm /> */}
+        < LifeCycle />
       </div>
     );
   }
