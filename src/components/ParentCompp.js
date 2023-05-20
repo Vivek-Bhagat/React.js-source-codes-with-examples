@@ -19,6 +19,7 @@ export class ParentCompp extends Component {
     }, 2000);
   }
   render() {
+    console.log("*****parent component render********")
     return (
       <div>
         Parent Component.
