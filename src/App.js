@@ -2,7 +2,11 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
-import Table from "./components/Table";
+// import PureCompp from "./components/PureCompp";
+import ParentCompp from "./components/ParentCompp";
+
+
+// import Table from "./components/Table";
 // import Fragment from "./components/Fragment";
 // import TestForm from "./components/TestForm";
 // import LifeCycle from "./components/LifeCycle";
@@ -58,7 +62,8 @@ class App extends Component {
         {/* < TestForm /> */}
         {/* < LifeCycle /> */}
         {/* < Fragment /> */}
-        < Table />
+        {/* < Table /> */}
+      < ParentCompp/>
       </div>
     );
   }
