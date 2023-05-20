@@ -2,8 +2,10 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
+import Table from "./components/Table";
+// import Fragment from "./components/Fragment";
 // import TestForm from "./components/TestForm";
-import LifeCycle from "./components/LifeCycle";
+// import LifeCycle from "./components/LifeCycle";
 // import Stylesheet from "./components/Stylesheet";
 // import Inline from "./components/Inline";
 // import Greet from './components/Greet';
@@ -54,7 +56,9 @@ class App extends Component {
         {/* < Stylesheet primary={true} /> */}
         {/* < Inline /> */}
         {/* < TestForm /> */}
-        < LifeCycle />
+        {/* < LifeCycle /> */}
+        {/* < Fragment /> */}
+        < Table />
       </div>
     );
   }
