@@ -2,9 +2,9 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
+import RefDemo from "./components/RefDemo";
 // import PureCompp from "./components/PureCompp";
-import ParentCompp from "./components/ParentCompp";
-
+// import ParentCompp from "./components/ParentCompp";
 
 // import Table from "./components/Table";
 // import Fragment from "./components/Fragment";
@@ -47,7 +47,6 @@ class App extends Component {
 
         {/* <Message /> */}
 
-
         {/* <Counter /> */}
         {/* <Like /> */}
 
@@ -63,7 +62,8 @@ class App extends Component {
         {/* < LifeCycle /> */}
         {/* < Fragment /> */}
         {/* < Table /> */}
-      < ParentCompp/>
+        {/* < ParentCompp/> */}
+        < RefDemo />
       </div>
     );
   }
