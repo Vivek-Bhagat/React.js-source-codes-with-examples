@@ -28,7 +28,7 @@ class RefDemo extends Component {
     return (
       <>
         <input type="text" ref={this.inputRef} />
-        <input type="text" ref={this.cbRef} />
+        <input type="text" ref={this.setcbRef} />
         <button onClick={this.clickHandler}>Click</button>
       </>
     );
