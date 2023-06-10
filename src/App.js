@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
-import RefDemo from "./components/RefDemo";
+import InputParent from "./components/InputParent";
+// import RefDemo from "./components/RefDemo";
 // import PureCompp from "./components/PureCompp";
 // import ParentCompp from "./components/ParentCompp";
 
@@ -63,7 +64,8 @@ class App extends Component {
         {/* < Fragment /> */}
         {/* < Table /> */}
         {/* < ParentCompp/> */}
-        < RefDemo />
+        {/* < RefDemo /> */}
+        < InputParent />
       </div>
     );
   }
