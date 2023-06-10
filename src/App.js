@@ -2,7 +2,8 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
-import InputParent from "./components/InputParent";
+import PortalDemo from "./components/PortalDemo";
+// import InputParent from "./components/InputParent";
 // import RefDemo from "./components/RefDemo";
 // import PureCompp from "./components/PureCompp";
 // import ParentCompp from "./components/ParentCompp";
@@ -27,6 +28,7 @@ import InputParent from "./components/InputParent";
 // import ParentComponent from "./components/parentComponent";
 // import UserGreeting from "./components/UserGreeting";
 // import ListNames from "./components/ListNames";
+
 class App extends Component {
   render() {
     return (
@@ -65,7 +67,8 @@ class App extends Component {
         {/* < Table /> */}
         {/* < ParentCompp/> */}
         {/* < RefDemo /> */}
-        < InputParent />
+        {/* < InputParent /> */}
+        < PortalDemo />
       </div>
     );
   }
