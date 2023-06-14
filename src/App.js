@@ -3,6 +3,7 @@ import React, { Component } from "react";
 // import logo from './logo.svg';
 import "./App.css";
 import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 // import PortalDemo from "./components/PortalDemo";
 // import InputParent from "./components/InputParent";
 // import RefDemo from "./components/RefDemo";
@@ -84,6 +85,7 @@ class App extends Component {
         </ErrorBoundry> */}
 
         <ClickCounter />
+        <HoverCounter />
       </div>
     );
   }
