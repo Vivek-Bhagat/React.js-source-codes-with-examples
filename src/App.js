@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
+import ClickCounter from "./components/ClickCounter";
 // import PortalDemo from "./components/PortalDemo";
 // import InputParent from "./components/InputParent";
 // import RefDemo from "./components/RefDemo";
@@ -28,8 +29,8 @@ import "./App.css";
 // import ParentComponent from "./components/parentComponent";
 // import UserGreeting from "./components/UserGreeting";
 // import ListNames from "./components/ListNames";
-import Hero from "./components/Hero"
-import ErrorBoundry from "./components/ErrorBoundry";
+// import Hero from "./components/Hero"
+// import ErrorBoundry from "./components/ErrorBoundry";
 
 class App extends Component {
   render() {
@@ -72,7 +73,7 @@ class App extends Component {
         {/* < InputParent /> */}
         {/* < PortalDemo /> */}
 
-        <ErrorBoundry>
+        {/* <ErrorBoundry>
           <Hero heroName="Batman" />
         </ErrorBoundry>
         <ErrorBoundry>
@@ -80,7 +81,9 @@ class App extends Component {
         </ErrorBoundry>
         <ErrorBoundry>
           <Hero heroName="Jocker" />
-        </ErrorBoundry>
+        </ErrorBoundry> */}
+
+        <ClickCounter />
       </div>
     );
   }
