@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
-import PortalDemo from "./components/PortalDemo";
+// import PortalDemo from "./components/PortalDemo";
 // import InputParent from "./components/InputParent";
 // import RefDemo from "./components/RefDemo";
 // import PureCompp from "./components/PureCompp";
@@ -28,6 +28,8 @@ import PortalDemo from "./components/PortalDemo";
 // import ParentComponent from "./components/parentComponent";
 // import UserGreeting from "./components/UserGreeting";
 // import ListNames from "./components/ListNames";
+import Hero from "./components/Hero"
+import ErrorBoundry from "./components/ErrorBoundry";
 
 class App extends Component {
   render() {
@@ -68,7 +70,17 @@ class App extends Component {
         {/* < ParentCompp/> */}
         {/* < RefDemo /> */}
         {/* < InputParent /> */}
-        < PortalDemo />
+        {/* < PortalDemo /> */}
+
+        <ErrorBoundry>
+          <Hero heroName="Batman" />
+        </ErrorBoundry>
+        <ErrorBoundry>
+          <Hero heroName="Superman" />
+        </ErrorBoundry>
+        <ErrorBoundry>
+          <Hero heroName="Jocker" />
+        </ErrorBoundry>
       </div>
     );
   }
