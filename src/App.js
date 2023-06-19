@@ -2,6 +2,10 @@ import React, { Component } from "react";
 // import React, { Component } from 'react'
 // import logo from './logo.svg';
 import "./App.css";
+
+// import ComponentC from "./components/ComponentC";
+// import { UserProvider } from "./components/UserContext";
+// import ComponentF from "./components/ComponentF";
 // import ClickCounter from "./components/ClickCounter";
 // import HoverCounter from "./components/HoverCounter";
 // import PortalDemo from "./components/PortalDemo";
@@ -86,6 +90,12 @@ class App extends Component {
 
         {/* <ClickCounter />
         <HoverCounter /> */}
+        {/* < UserProvider value="User">
+            <ComponentC />
+        </UserProvider> */}
+
+        {/* Post lis of the http s request component */}
+        
       </div>
     );
   }
