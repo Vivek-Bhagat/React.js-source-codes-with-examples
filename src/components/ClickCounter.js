@@ -12,7 +12,7 @@ class ClickCounter extends Component {
     this.setState(prevState => {
       return { count: prevState.count + 1 };
     });
-  };
+  }; 
   render() {
     const { count } = this.state;
     return <button onClick={this.incrementValue}>Clicked {count}   times</button>
